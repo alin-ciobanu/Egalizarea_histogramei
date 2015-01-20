@@ -1,0 +1,23 @@
+
+<div class="container" ng-controller="UploadController">
+
+    <div class="jumbotron centered white half-bg-opacity">
+        <h2>JPEG histogram transformation</h2>
+        <div class="input-group centered top-buffer-1-em" style="min-width: 40%;">
+            <div class="form-group">
+                <input class="form-control cornered-input" file-model="image.data"
+                       type="file" name="pic" accept="image/*" />
+                <input type="submit" value="Submit" ng-disabled="status.inProgress" style="color: #060032" ng-click="uploadImage()"/>
+            </div>
+        </div>
+
+        <div ng-show="status.error" class="top-buffer-0-5-em centered cornered-input error-div"
+             style= "width: 40%;">
+            <span class="error-success-inner">
+                {{status.message}}
+            </span>
+        </div>
+
+    </div>
+
+</div>

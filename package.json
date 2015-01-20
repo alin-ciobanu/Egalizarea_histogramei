@@ -1,0 +1,18 @@
+{
+  "name": "bets",
+  "version": "0.1.5",
+  "description": "Bets app based on MEAN stack",
+  "dependencies": {
+    "express": "~4.0.0",
+    "body-parser": "*",
+    "method-override": "*",
+    "path": "*",
+    "underscore": "*",
+    "multer": "*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.19"
+  }
+}

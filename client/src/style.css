@@ -1,0 +1,132 @@
+
+
+.blue {
+    color: #75B8FF !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.white-gray {
+    color: #EBEBEB !important;
+}
+
+.header-bg-color {
+    background-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.brand-color {
+    color: #12A4E3 !important;
+}
+
+.navbar-nav li a {
+    color: #43cfff !important;
+}
+
+.navbar-nav li a:hover {
+    color: #eafdff !important;
+}
+
+.dropdown ul li a:hover {
+    color: #43cfff !important;
+}
+
+.nav-tabs li a {
+    color: #1998ff !important;
+}
+
+.dropdown li a {
+    color: #4a95ff !important;
+}
+
+.header-text-size {
+    font-size: 1em;
+}
+
+.centered {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.cornered-input {
+    border-radius: 7px !important;
+}
+
+.top-buffer-0-5-em {
+    margin-top: 0.5em;
+}
+
+.top-buffer-1-em {
+    margin-top: 1em;
+}
+
+.top-buffer-2-em {
+    margin-top: 2em;
+}
+
+.red-border {
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 0.2em;
+}
+
+.menu-link-border {
+    background-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    min-width: 7.3em;
+    border: 0.2em solid rgba(255,255,255, 0);
+    border-radius: 0.6em !important;
+}
+
+.menu-link-border:hover {
+    background-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-width: 0.2em;
+    border-color: white;
+    border-style: solid;
+    border-radius: 0.6em !important;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    min-width: 7.3em;
+}
+
+.lang-link-border {
+    background-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+.half-bg-opacity {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.error-div {
+    min-height: 4em;
+    display: inline-flex;
+    border-color: #ff0046;
+    border-style: solid;
+    background-color: #ff6354;
+}
+
+.success-div {
+    min-height: 4em;
+    display: inline-flex;
+    border-color: #25bc6c;
+    border-style: solid;
+    background-color: #00e15a;
+}
+
+.error-success-inner {
+    margin: auto
+}
+
